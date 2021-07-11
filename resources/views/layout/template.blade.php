@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/6678200964.js" crossorigin="anonymous"></script>
     <title>Covid-19 Report</title>
 </head>
 
@@ -31,7 +32,12 @@
             </div>
         </div>
     </section>
+    <span class="countfect" data-num="1200"></span>
+
     @yield('content')
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/resources/js/countfect.min.js"></script>
 </body>
 
 </html>
