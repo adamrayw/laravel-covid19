@@ -16,7 +16,7 @@
                 @foreach ($data as $datas)
                 <div class="card px-6 py-4 border-b-4 border-white bg-red-500 text-white rounded-md shadow-lg">
                     <p class="font-light">TOTAL POSITIF</p>
-                    <div class="flex items-baseline">
+                    <div class="flex items-baseline justify-center">
                         <p class="text-2xl font-bold">{{ $datas['positif'] }}</p>
                         <p class="text-light text-xs ml-1">ORANG</p>
                     </div>
