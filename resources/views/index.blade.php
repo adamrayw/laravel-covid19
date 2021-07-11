@@ -38,7 +38,7 @@
                 <div class="card px-6 py-4 border-b-4 border-white bg-gray-500 text-white rounded-md shadow-lg">
                     <div class="flex items-center">
                         <i class="fas fa-sad-tear fa-lg mr-2"></i>
-                        <p class="font-light">TOTAL MEINGGAL</p>
+                        <p class="font-light">TOTAL MENINGGAL</p>
                     </div>
                     <div class="mt-2">
                         <p class="text-2xl font-bold">{{ $datas['meninggal'] }}</p>
