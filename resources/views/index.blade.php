@@ -46,6 +46,9 @@
                 </div>
                 @endforeach
             </div>
+            <div class="update mt-4">
+                <p class="text-gray-400 text-xs">Update terakhir : {{ date('d F Y') }}</p>
+            </div>
     </header>
 </section>
 @endSection
