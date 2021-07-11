@@ -16,7 +16,7 @@
         <div class="navbar-shadow fixed top-0 z-20 w-full text-gray-700 bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800 shadow-md">
             <div x-data="{ open: false }" class="flex flex-col px-4 mx-auto md:items-center md:justify-between md:flex-row lg:px-8">
                 <div class="flex flex-row items-center justify-between py-4">
-                    <a href="index" class="text-2xl px-0 md:px-4 font-light tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">covid-19</a>
+                    <a href="index" class="text-2xl px-0 md:px-4 font-light tracking-widest text-gray-900 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline"><i class="fas fa-viruses fa-sm"></i></a>
                     <button class="rounded-lg md:hidden focus:outline-none focus:shadow-outline" @click="open = !open">
                         <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
                             <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
@@ -25,9 +25,9 @@
                     </button>
                 </div>
                 <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow hidden pb-4 md:pb-0 md:flex md:justify-end md:flex-row">
-                    <a class="md:px-4 py-2 mt-2 text-lg font-light text-gray-900 rounded-lg dark-mode:bg-gray-700 md:mt-0 hover:text-gray-500" href="all-course">All Course</a>
+                    <a class="md:px-4 py-2 mt-2 text-lg font-light text-gray-900 rounded-lg dark-mode:bg-gray-700 md:mt-0 hover:text-gray-500" href="all-course">Informasi</a>
+                    <!-- <a class="md:px-4 py-2 mt-2 text-lg font-light bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-500  " href="roadmap"></a> -->
                     <a class="md:px-4 py-2 mt-2 text-lg font-light bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-500 " href="contact">Contact</a>
-                    <a class="md:px-4 py-2 mt-2 text-lg font-light bg-transparent rounded-lg md:mt-0 md:ml-4 hover:text-gray-500  " href="roadmap">Alur Belajar</a>
                 </nav>
             </div>
         </div>
