@@ -31,11 +31,6 @@
                 </div>
                 @endforeach
             </div>
-            <div class="lastupdate text-center">
-                @foreach ($dataupdate as $date)
-                <p>{{ $date['attributes']['Last_Update'] }}</p>
-                @endforeach
-            </div>
     </header>
 </section>
 @endSection
