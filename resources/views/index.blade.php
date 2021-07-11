@@ -7,7 +7,7 @@
 <section>
     <header class="max-w-4xl mx-auto">
         <div class="mt-24 md:mt-32 text-center">
-            <h1 class="text-4xl font-light">Kawal Covid-19</h1>
+            <h1 class="text-4xl font-light">Data Sebaran Covid-19</h1>
             <div class="flex justify-center items-center mt-6">
                 <p class="font-extralight">Live Data Covid-19 Indonesia</p>
                 <img class="w-6 h-auto ml-2" src="https://img.icons8.com/color/48/000000/indonesia.png" />
