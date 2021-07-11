@@ -8,7 +8,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
     <script src="https://kit.fontawesome.com/6678200964.js" crossorigin="anonymous"></script>
-    <title>Covid-19 Report</title>
+    <title>Live Data Covid-19</title>
 </head>
 
 <body>
